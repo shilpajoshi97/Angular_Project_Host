@@ -448,6 +448,7 @@ body{
     border: none;
     border-style: none;
     outline: none;
+    background-color: #fff;
   }
 
   .existing-loans{
