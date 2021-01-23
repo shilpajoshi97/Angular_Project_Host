@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Stylesheets -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation header -->
+
+    <div class="header">
+        <div class="big-blob">
+            <img class ="info-big-blob" src="Assets/circle.svg" alt="small-blob-background">
+        </div>
+        <div class="accounting-dots-1">
+            <img class ="info-dots-1" src="Assets/accounting_dots.svg" alt="small-blob-background">
+        </div>
+        <div class="accounting-dots-2">
+            <img class ="info-dots-2" src="Assets/accounting_dots.svg" alt="small-blob-background">
+        </div>
+
+        <div class="navigation-container container">
+            <div class="header-left">
+                <a href="index.html"><img class="logo-image" src="Assets/logo.png" alt="logo-img"></a>
+            </div>
+            <div class="header-right">
+                <a class="navigation-button" href="#">Products</a>
+                <a class="navigation-button" href="#">Solutions</a>
+                <a class="navigation-button" href="#">Pricing</a>
+                <a class="login-button" href="#">Login</a>
+                <a class="get-started-button" href="#">Get Started</a>
+            </div>
+        </div>    
+    </div>
+
+    <!-- Information -->
+
+    <div class="information container">
+        <div class="small-blob">
+            <img class ="info-small-blob" src="Assets/blob-small.svg" alt="small-blob-background">
+        </div>
+        <div class="information-container container">
+            <div class="information-left">
+                <div class="info-text-box">We make it Super Simple</div>
+                <hr class="info-hr">    
+                <div class="info-image-box">
+                    <img class="info-image" src="Assets/collect_img-video.png" alt="info-img">
+                </div>
+            </div>
+            <div class="information-right">
+                <div class="eligibility-box container">
+                    <div class="eligibility-calculator-left">
+                        <div class="heading-text">
+                            <p>Eligibility Calculator</p>
+                        </div>  
+                        <div class="slidecontainer">
+                            <p>Monthly Income</p>
+                            <br>
+                            <p class="income-number">&#8377; <span id="income"></span></p>
+                            <input type="range" min="100000" max="300000" value="1" class="slider1" id="myRange1">
+                            <div class="ranges container">
+                                <p>&#8377; 100000</p>
+                                <p>&#8377; 300000</p>
+                            </div>
+                        </div>
+                
+                        <div class="slidecontainer">
+                            <p>Monthly Expense</p>
+                            <br>
+                            <p class="expense-number">&#8377; <span id="expense"></span></p>
+                            <input type="range" min="10000" max="100000" value="1" class="slider2" id="myRange2">
+                        </div>
+                        <div class="repayment-tenure">
+                            <p>Repayment tenure</p>
+                            <br>
+                            <select name="tenure" id="tenure">
+                                <option value="3 Months">3 Months</option>
+                                <option value="6 Months">6 Months</option>
+                                <option value="9 Months">9 Months</option>
+                                <option value="12 Months">12 Months</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="existing-loans container">
+                            <p>Do you have any existing loans?</p>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="emi">
+                            <p>EMI of existing loan (optional)</p>
+                            <br>
+                            <input type="text" name="emi" id="emi" placeholder="&#8377; 1500">
+                        </div>
+                    </div> 
+                    <div class="eligibility-calculator-right">
+                        <p>Loan Amount</p>
+                        <p class="loan-number">&#8377; 100000</p>
+                        <br>
+                        <p>Your EMI will be</p>
+                        <p class="emi-number">&#8377; 15000</p>
+                        <br>
+                        <p class="calculator-button">Get Money</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- Features -->
+
+    <div class="features">
+        <div class="big-wave">
+            <img class ="features-big-wave" src="Assets/sol_wave_bg.svg" alt="small-blob-background">
+        </div>
+        <div class="features-container container">
+            <div class="features-left container">
+                <div class="row-container container">
+                    <div class="row-1">
+                        <div class="rectangle-1">
+                            <img class="features-image" src="Assets/Get Paid Instantly.png" alt="img">
+                            <p class="main-text">Quick cash disbursement</p>
+                            <p class="small-text">Get terms loans that your business needs within 72 hrs</p>
+                        </div>
+                        <div class="rectangle-2">
+                            <img class="features-image" src="Assets/Low interest rate.png" alt="img">
+                            <p class="main-text">Low-interest rate</p>
+                            <p class="small-text">Achieve your financial goals with an amazing interest rate starting at 13% per annum</p>
+                        </div>
+                        <div class="rectangle-3">
+                            <img class="features-image" src="Assets/Secure Payments.png" alt="img">
+                            <p class="main-text">Zero Paperwork</p>
+                            <p class="small-text">Get started instantly by submitting only your basic details & bank statements</p>
+                        </div>
+                    </div>
+                    <div class="row-2">
+                        <div class="rectangle-4">
+                            <img class="features-image" src="Assets/freelancer_feature_icon_6@1.5x.png" alt="img">
+                            <p class="main-text">Ace your business finances</p>
+                            <p class="small-text">Manage banking, accounting & everything in between, on one platform</p>
+                        </div>
+                        <div class="rectangle-5">
+                            <img class="features-image" src="Assets/Covid.png" alt="img">
+                            <p class="main-text">Loans to fight COVID-19</p>
+                            <p class="small-text">Zero EMI for first 3 months on Back-to-Business loans of upto 1 lakh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="features-right-container container">
+                <div class="features-text-box">Boost your business with Open</div>
+                <hr class="features-hr">
+                <div class="features-right-text">Get your hands on a term loan that’s crafted for your business</div>
+                <a class="features-button" href="#">Get an Open Account</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+    <script src="calculator.js"></script>    
+
+
+</body>
+
+</html>
